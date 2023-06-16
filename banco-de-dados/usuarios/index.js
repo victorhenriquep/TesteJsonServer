@@ -1,4 +1,4 @@
-URL = 'https://teste-json-server.vercel.app/db/db.json'
+URL = 'https://teste-json-server.vercel.app/usuarios'
 
 
 //=================================================================================================
