@@ -1,4 +1,4 @@
-URL = 'http://localhost:3000/usuarios'
+URL = 'https://teste-json-server.vercel.app/db/db.json'
 
 
 //=================================================================================================
