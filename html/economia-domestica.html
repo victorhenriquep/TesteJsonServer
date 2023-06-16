@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economy + - Economia Doméstica</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/economia-domestica.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" href="../img/icon.png" type="image/x-icon">
+  <script src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
+</head>
+
+<body> <!--Menu bar/hamburguer menu-->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler ms-auto" type="button" id="dropdownMenu2" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-haspopup="true" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a id="dolar" class="nav-link text-light" href="https://www.bcb.gov.br/conversao" target="_blank">Dólar: R$...</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="FAQ.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../html/contato.html" target="_blank">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Logotipo Economy+ com o Id de LogoPages (sem ser a página index)-->
+  <div id="divLogoPages" class="p-3 text-light position-absolute" style="top: 0; left: 0; transition: top 0.3s, left 0.3s;">
+    <a href="../index.html"><h1 id="textoLogoPages" class="mb-3 page-title">Economy+ <img id="imagemLogoPages" class="money-bag" src="../img/moneybag.png" alt="money bag"></h1></a>
+  </div>
+
+  <!--Início do Container-->
+  <div class="container">
+
+    <div class="titulo-dicas text-center text-light">
+      <h1 class="titulo">Dicas de Economia Doméstica</h1>
+    </div>
+
+    <p id="subtitulo">Aqui vão 9 dicas para ajudar você
+      a maximizar seus recursos e alcançar uma vida financeira saudável. 
+      Com um olhar atento às suas despesas e algumas mudanças inteligentes
+       em seu dia a dia, você pode criar uma base sólida para economizar e prosperar.
+       Aproveite essa sessão e comece a trilhar o caminho rumo à estabilidade financeira e independência.</p>
+
+    <!--Cada "div class=card" é um cartão de dicas-->
+    <div class="row justify-content-center align-items-stretch">
+
+        <div class="card">
+          <img src="../img/economia_domestica/economiadomestica-dica1.png" class="card-img-top" alt="Uma pessoa usando uma calculadora.">
+          <div class="card-body">
+            <h4 class="text-center fw-bold">Conserte torneiras com vazamentos</h4>
+            <p class="card-text">Se aquele pinga-pinga nunca te incomodou é hora de prestar mais atenção. Esta pequena goteira pode desperdiçar até 2 mil litros de água ao mês.
+              <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+            </p>
+          </div>
+        </div>
+        
+    
+      <div class="card">
+        <img src="../img/economia_domestica/economiadomestica-dica2.png" class="card-img-top" alt="Uma pessoa apagando um interruptor de luz.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Apague a luz ao sair de um ambiente</h4>
+          <p class="card-text">Apesar de parecer lógico, somente quando adotamos esse costume no dia a dia ele se torna um hábito, ajudando a evitar o desperdício.
+            <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/economia_domestica/economiadomestica-dica3.png" class="card-img-top" alt="Uma pessoa cozinhando.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Visite hortas comunitárias</h4>
+          <p class="card-text">Muito comuns na maioria das cidades, as hortas comunitárias são boas opções para economizar ao comprar verduras e hortaliças, além de ajudarem a ter uma vida mais saudável.
+            <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/economia_domestica/economiadomestica-dica4.png" class="card-img-top" alt="Uma pessoa pagando compras com o cartão de crédito.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Espere juntar roupa suja para lavá-la</h4>
+          <p class="card-text">Utilizar a máquina menos vezes em sua capacidade total garante maior economia de água.
+            <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/economia_domestica/economiadomestica-dica5.png" class="card-img-top" alt="Uma pessoa pesquisando no notebook.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Faça uma lista de compras</h4>
+          <p class="card-text">Fazer uma lista contendo somente o que está em falta garante que você não se distraia facilmente entre as prateleiras do mercado e compra além do que necessita.
+            <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/economia_domestica/economiadomestica-dica6.png" class="card-img-top" alt="Um cofre com dinheiro dentro.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Venda as roupas que você não usa mais</h4>
+          <p class="card-text">Quer desentulhar o armário e ainda ganhar um dinheirinho? Vender suas roupas usadas em brechós e bazares online são uma ótima pedida.
+            <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/economia_domestica/economiadomestica-dica7.png" class="card-img-top" alt="Um cofre com dinheiro dentro.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Livre-se de móveis antigos</h4>
+          <p class="card-text">Ao desfazer-se dos móveis já sem uso, além de você garantir mais espaço para o novo, ainda pode ganhar dinheiro com a venda dos mesmos.
+            <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/economia_domestica/economiadomestica-dica8.png" class="card-img-top" alt="Um cofre com dinheiro dentro.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Mantenha as panelas fechadas ao cozinhar</h4>
+          <p class="card-text">Ao deixá-las abertas, necessita-se de mais gás para que o cozimento seja efetivo.
+            <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/economia_domestica/economiadomestica-dica9.png" class="card-img-top" alt="Um cofre com dinheiro dentro.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Livre-se de extensões</h4>
+          <p class="card-text">Extensões e benjamins (o famoso “T”) ajudam a desperdiçar energia. Utilize-os somente se necessário.
+            <br><u><a target="_blank" href="https://www.tuacasa.com.br/economia-domestica/">Fonte: TuaCasa.com.br</a></u>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
